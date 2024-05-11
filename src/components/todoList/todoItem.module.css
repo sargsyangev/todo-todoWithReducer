@@ -1,0 +1,126 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    border-bottom: 3px solid rgba(13, 10, 180, 0.84);
+    border-radius: 3px;
+}
+
+.todoDone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    border-bottom: 3px solid rgba(35, 228, 14, 0.84);
+    border-radius: 3px;
+}
+
+.todoEdit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    border-bottom: 3px solid rgba(215, 225, 14, 0.84);
+    border-radius: 3px;
+}
+
+.todoName {
+    width: 60%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.todoButtons{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.editInput {
+    border: none;
+    background: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.isDone {
+    text-decoration: line-through;
+    color: rgba(35, 228, 14, 0.84);
+}
+
+.doneBtn{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(35, 228, 14, 0.84);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .editBtn{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(215, 225, 14, 0.84);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .deleteBtn{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(229, 21, 21, 0.84);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .saveBtn{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(215, 225, 14, 0.84);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+.pageBtn{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(14, 32, 225, 0.84);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+}

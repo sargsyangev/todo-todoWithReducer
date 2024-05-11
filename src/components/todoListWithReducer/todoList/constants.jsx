@@ -1,0 +1,11 @@
+const todos = []
+
+const ACTION_TYPES = {
+    TODO_ADD: "TODO_ADD",
+    TODO_DELETE: "TODO_DELETE",
+    TODO_EDIT: "TODO_EDIT",
+    TODO_SAVE_EDIT: "TODO_SAVE_EDIT",
+    TODO_STATUS_UPDATE: "TODO_STATUS_UPDATE"
+}
+
+export {todos , ACTION_TYPES}
